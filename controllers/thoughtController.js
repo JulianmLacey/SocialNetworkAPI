@@ -34,7 +34,7 @@ module.exports = {
 	//Update Thought by ID
 	async updateThought(req, res) {
 		try {
-			const thought = await Thought.findOneAndUpdate({ _id: req.params.thoughtId }, req.body);
+			const thought = await Thought.findOneAndUpdate({ _id: req.params.thoughtId }, req.body, { new: true });
 			res.status(200).json(thought);
 		} catch (err) {
 			res.status(500).json(err);
@@ -54,7 +54,7 @@ module.exports = {
 	//Create Reaction
 	async createReaction(req, res) {
 		try {
-			const newReaction = await Thought.updateOne({ _id: req.params.thoughtId }, { $push: { reactions: req.body } });
+			const newReaction = await Thought.updateOne({ _id: req.params.thoughtId }, { $push: { reactions: req.body } }, { new: true });
 			res.status(200).json(newReaction);
 		} catch (err) {
 			res.status(500).json(err);
@@ -62,7 +62,7 @@ module.exports = {
 	},
 	async deleteReaction(req, res) {
 		try {
-			const reaction = await Thought.updateOne({ _id: req.params.thoughtId }, { $pull: { reactions: req.body } });
+			const reaction = await Thought.findOneAndUpdate({ _id: req.params.thoughtId }, { $pull: { reactions: { _id: req.body._id } } }, { new: true });
 			res.status(200).json(reaction);
 		} catch (err) {
 			res.status(500).json(err);

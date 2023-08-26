@@ -31,7 +31,7 @@ module.exports = {
 	},
 	async updateUser(req, res) {
 		try {
-			const user = await User.findOneAndUpdate({ _id: req.params.userId }, req.body);
+			const user = await User.findOneAndUpdate({ _id: req.params.userId }, req.body, { new: true });
 			if (!user) {
 				return res.status(404).json({ message: "No User Found" });
 			}
@@ -50,7 +50,7 @@ module.exports = {
 	},
 	async addFriend(req, res) {
 		try {
-			const friend = await User.updateOne({ _id: req.params.userId }, { $push: { friends: req.params.friendId } });
+			const friend = await User.updateOne({ _id: req.params.userId }, { $push: { friends: req.params.friendId } }, { new: true });
 			res.status(200).json(friend);
 		} catch (err) {
 			console.log("ERROR ADD FRIEND TO USERS");
