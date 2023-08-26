@@ -35,20 +35,25 @@ POST: Add User
 PUT: Update User
 DELETE: Delete User
 
-!!![USER ROUTES](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExangybGtydGplZXhkcHpjZWg3c3hzanJsNzRmOWtuOHQ4enhkZGNuMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/coEJAsNPrLuWuJuSco/giphy.gif)
+![USER ROUTES](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExangybGtydGplZXhkcHpjZWg3c3hzanJsNzRmOWtuOHQ4enhkZGNuMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/coEJAsNPrLuWuJuSco/giphy.gif)
 
 ADD/REMOVE Friend from friendslist
-!!![Add/Remove Friend](https://media.giphy.com/media/Aq9lMB0cg4ok9j8Bhg/giphy.gif)
+
+
+
+![Add/Remove Friend](https://media.giphy.com/media/Aq9lMB0cg4ok9j8Bhg/giphy.gif)
 
 GET: All Thoughts, Thought by ID
 POST: Add Thought
 PUT: Update Thought
 DELETE: Delete Thought
 
-!!![THOUGHT ROUTES ](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmY5ajZjYXp6eGZnMjRxY2xuaTRqZ2U2NW0wbjV1MWV3OXQ4aGEwMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WAUkItS4SnxdfbZQgb/giphy.gif)
+![THOUGHT ROUTES ](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmY5ajZjYXp6eGZnMjRxY2xuaTRqZ2U2NW0wbjV1MWV3OXQ4aGEwMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WAUkItS4SnxdfbZQgb/giphy.gif)
 
 Creating user email validation with virtual function
-!!![Email Validation](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmIzM3d4dGs4bjk5cWhmbjk5d21qMnZqNGRwaGhhd2JnbmxwOThtbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Aq9lMB0cg4ok9j8Bhg/giphy.gif)
+
+
+![Email Validation](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmIzM3d4dGs4bjk5cWhmbjk5d21qMnZqNGRwaGhhd2JnbmxwOThtbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Aq9lMB0cg4ok9j8Bhg/giphy.gif)
 
 ## License
 
