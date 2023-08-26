@@ -4,14 +4,12 @@
 
 ## Description
 
-This application Is an Ecommerse Backend REST API.
+This Application is a Backend REST API for a basic Social Network Web Application
 
 ## Libraries
 
-- dotenv
-- expressJS
-- mysql2
-- sequelize
+- Express
+- Mongoose
 
 ## User Story
 
@@ -32,20 +30,25 @@ As a social media startup, I want an API for my social network that uses a NoSQL
 
 The following animation demonstrates the application functionality:
 
+GET: All Users, User by ID
+POST: Add User
+PUT: Update User
+DELETE: Delete User
+
 !!![USER ROUTES](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExangybGtydGplZXhkcHpjZWg3c3hzanJsNzRmOWtuOHQ4enhkZGNuMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/coEJAsNPrLuWuJuSco/giphy.gif)
 
-- SQL connection: 0:00
-- SEED Database: 0:23
-- Start Server: 0:30
-- GET: Categories, 0:38; Products, 1:05; Tags, 1:37
-- GET by ID, POST, and DEL follow each of the above timestamps
+ADD/REMOVE Friend from friendslist
+!!![Add/Remove Friend](https://media.giphy.com/media/Aq9lMB0cg4ok9j8Bhg/giphy.gif)
 
-## Installation
+GET: All Thoughts, Thought by ID
+POST: Add Thought
+PUT: Update Thought
+DELETE: Delete Thought
 
-- Clone The Repository
-- Create the Database As Seen In The Video Dem
-- npm run seed
-- npm start
+!!![THOUGHT ROUTES ](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmY5ajZjYXp6eGZnMjRxY2xuaTRqZ2U2NW0wbjV1MWV3OXQ4aGEwMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WAUkItS4SnxdfbZQgb/giphy.gif)
+
+Creating user email validation with virtual function
+!!![Email Validation](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmIzM3d4dGs4bjk5cWhmbjk5d21qMnZqNGRwaGhhd2JnbmxwOThtbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Aq9lMB0cg4ok9j8Bhg/giphy.gif)
 
 ## License
 
